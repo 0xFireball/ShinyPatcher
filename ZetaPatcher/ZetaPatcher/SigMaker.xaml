@@ -10,5 +10,9 @@
                       WindowStartupLocation="CenterOwner"
                       ResizeMode="CanMinimize"
                       Title="Generate Signature" Height="295" Width="437" Icon="icon.ico">
-    <Grid />
+    <Grid >
+        <TextBlock x:Name="txtInst1" HorizontalAlignment="Left" Margin="62,96,0,0" TextWrapping="Wrap" Text="Select Basis File" VerticalAlignment="Top" Height="14" Width="358"/>
+        <Button x:Name="btnSelectBasisFile" Content="Browse" Margin="62,115,259.4,0" VerticalAlignment="Top" Height="29" Click="btnSelectBasisFile_Click"/>
+        <Button x:Name="btnGenerateSig" Content="Generate Signature" Margin="125,201,115.4,24.6" Click="btnGenerateSig_Click"/>
+    </Grid>
 </controls:MetroWindow>

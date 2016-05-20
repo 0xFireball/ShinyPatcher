@@ -86,6 +86,7 @@
     <Compile Include="SigMaker.xaml.cs">
       <DependentUpon>SigMaker.xaml</DependentUpon>
     </Compile>
+    <Compile Include="ZetaPatcherCommon.cs" />
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -141,6 +142,12 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="icon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Octodiff\Octodiff.csproj">
+      <Project>{BBA7CDC2-DE25-4131-89F2-506712178FC8}</Project>
+      <Name>Octodiff</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

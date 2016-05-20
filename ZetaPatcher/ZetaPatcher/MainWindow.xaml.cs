@@ -14,12 +14,12 @@ namespace ZetaPatcher
             InitializeComponent();
         }
 
-        private void BtnProjectPage_OnClick(object sender, RoutedEventArgs e)
+        private void ProjectPageClick(object sender, RoutedEventArgs e)
         {
             Process.Start("https://zetaphase.github.io/ZetaPatcher");
         }
 
-        private void BtnZetaPhase_OnClick(object sender, RoutedEventArgs e)
+        private void ZetaPhaseClick(object sender, RoutedEventArgs e)
         {
             Process.Start("https://zetaphase.io");
         }

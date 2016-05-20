@@ -24,7 +24,7 @@
         <Controls:WindowCommands>
             <TextBlock Text="v0.2.0" />
             <!--<Button Name="btnProjectPage" Click="BtnProjectPage_OnClick" Content="Project Page" /> -->
-            <Button Name="btnZetaPhase" Click="BtnZetaPhase_OnClick" Content="ZetaPhase Technologies" FontSize="8" />
+            <Button Name="btnZetaPhase" Click="ZetaPhaseClick" Content="ZetaPhase Technologies" FontSize="8" />
         </Controls:WindowCommands>
     </Controls:MetroWindow.RightWindowCommands>
 </Controls:MetroWindow>
