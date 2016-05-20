@@ -8,23 +8,23 @@
                       mc:Ignorable="d"
                       FontFamily="pack://application:,,,/MaterialDesignThemes.Wpf;component/Resources/Roboto/#Roboto"
                       ResizeMode="CanMinimize"
-                      Title="ZetaPatcher" Height="294.8" Width="437.4" Icon="icon.ico">
+                      Title="ZetaPatcher" Height="295" Width="437" Icon="icon.ico">
     <Grid>
         <TextBlock x:Name="titleBlock" TextAlignment="Center" Margin="125,46,132.2,0" TextWrapping="Wrap"
                    Text="ZetaPatcher" VerticalAlignment="Top" Height="39" FontSize="24" />
         <Button x:Name="btnGenerateSignature" Content="Generate Signature" Margin="125,109,132.2,0"
-                VerticalAlignment="Top" Height="37" Background="#FFAD3D3D" />
+                VerticalAlignment="Top" Height="37" Background="#FFAD3D3D" Click="BtnGenerateSignature_OnClick"/>
         <Button x:Name="btnCreatePatch" Content="Create Patch" Margin="125,151,132.2,0"
-        	VerticalAlignment="Top" Height="37" Background="#FFAD3D3D" />
+        	VerticalAlignment="Top" Height="37" Background="#FFAD3D3D" Click="btnCreatePatch_Click" />
         <Button x:Name="btnApplyPatch" Content="Apply Patch" Margin="125,193,132.2,0"
-        	VerticalAlignment="Top" Height="37" Background="#FFAD3D3D" />
+        	VerticalAlignment="Top" Height="37" Background="#FFAD3D3D" Click="btnApplyPatch_Click" />
         <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Margin="10,240,0,0" TextWrapping="Wrap" Text="(c) ZetaPhase Technologies, 2016" VerticalAlignment="Top" RenderTransformOrigin="1.544,1.757"/>
     </Grid>
     <Controls:MetroWindow.RightWindowCommands>
         <Controls:WindowCommands>
             <TextBlock Text="v0.2.0" />
             <!--<Button Name="btnProjectPage" Click="BtnProjectPage_OnClick" Content="Project Page" /> -->
-            <Button Name="btnZetaPhase" Click="BtnZetaPhase_OnClick" Content="ZetaPhase Technologies" />
+            <Button Name="btnZetaPhase" Click="BtnZetaPhase_OnClick" Content="ZetaPhase Technologies" FontSize="8" />
         </Controls:WindowCommands>
     </Controls:MetroWindow.RightWindowCommands>
 </Controls:MetroWindow>
