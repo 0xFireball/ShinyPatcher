@@ -1,4 +1,5 @@
 ﻿#region Copyright and License Header
+
 /*
 
 	ShinyPatcher
@@ -6,7 +7,6 @@
 	Copyright (c) 2016 0xFireball, IridiumIon Software
 
 	Author(s): 0xFireball
-	
 
 	This file is part of ShinyPatcher.
 
@@ -24,17 +24,18 @@
 	along with ShinyPatcher.  If not, see <http://www.gnu.org/licenses/>.
 
 */
-#endregion
 
+#endregion Copyright and License Header
 
-using System.Windows;
+using System.Diagnostics;
 
-namespace ShinyPatcher
+namespace ShinyPatcher.States
 {
-    /// <summary>
-    ///     Interaction logic for App.xaml
-    /// </summary>
-    public partial class App : Application
+    internal class MainWindowState
     {
+        internal void VisitIridiumIon()
+        {
+            Process.Start("https://iridiumion.xyz");
+        }
     }
 }

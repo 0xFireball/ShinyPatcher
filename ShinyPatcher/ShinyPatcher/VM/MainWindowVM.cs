@@ -1,4 +1,5 @@
 ﻿#region Copyright and License Header
+
 /*
 
 	ShinyPatcher
@@ -6,7 +7,6 @@
 	Copyright (c) 2016 0xFireball, IridiumIon Software
 
 	Author(s): 0xFireball
-	
 
 	This file is part of ShinyPatcher.
 
@@ -24,17 +24,24 @@
 	along with ShinyPatcher.  If not, see <http://www.gnu.org/licenses/>.
 
 */
-#endregion
 
+#endregion Copyright and License Header
 
-using System.Windows;
+using NanoMvvm;
+using ShinyPatcher.States;
+using System.Windows.Input;
 
-namespace ShinyPatcher
+namespace ShinyPatcher.VM
 {
-    /// <summary>
-    ///     Interaction logic for App.xaml
-    /// </summary>
-    public partial class App : Application
+    internal class MainWindowVM : ViewModelBase
     {
+        private MainWindowState _state = new MainWindowState();
+
+        public ICommand VisitIridiumIonCommand => new DelegateCommand(VisitIridiumIon);
+
+        private void VisitIridiumIon(object obj)
+        {
+            _state.VisitIridiumIon();
+        }
     }
 }

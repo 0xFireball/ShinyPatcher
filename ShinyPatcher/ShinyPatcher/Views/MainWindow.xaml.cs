@@ -27,14 +27,22 @@
 #endregion
 
 
+using NanoMvvm;
 using System.Windows;
 
-namespace ShinyPatcher
+namespace ShinyPatcher.Views
 {
     /// <summary>
-    ///     Interaction logic for App.xaml
+    ///     Interaction logic for MainWindow.xaml
     /// </summary>
-    public partial class App : Application
+    public partial class MainWindow : IView
     {
+        public MainWindow()
+        {
+            InitializeComponent();
+            (DataContext as ViewModelBase).View = this as IView;
+        }
+
+        public Window WindowHandle => this;
     }
 }
