@@ -33,16 +33,16 @@
                       ResizeMode="CanMinimize"
                       TextElement.Foreground="{DynamicResource MaterialDesignBody}"
                       Background="{DynamicResource MaterialDesignPaper}"
-                      FontFamily="pack://application:,,,/MaterialDesignThemes.Wpf;component/Resources/Roboto/#Roboto"
-                      Title="ShinyPatcher" Height="295" Width="437" Icon="../icon.ico">
+                      FontFamily="Roboto"
+                      Title="ShinyPatcher" Height="352.475" Width="505.618" Icon="../icon.ico">
     <Window.DataContext>
         <vm:MainWindowVM />
     </Window.DataContext>
     <Grid>
-        <TextBlock TextAlignment="Center" Margin="125,40,132,0" TextWrapping="Wrap"
-                   Text="ShinyPatcher" VerticalAlignment="Top" Height="39" FontSize="24" FontWeight="Bold" FontFamily="Roboto" />
+        <TextBlock TextAlignment="Center" Margin="125,40,132,0" TextWrapping="Wrap" Text="ShinyPatcher" VerticalAlignment="Top" Height="39" FontSize="24" FontWeight="Bold" FontFamily="Roboto" />
 
-        <TextBlock HorizontalAlignment="Left" Margin="10,0,0,10" TextWrapping="Wrap" Text="(c) IridiumIon Software, 2016" VerticalAlignment="Bottom" />
+        <TextBlock HorizontalAlignment="Left" Margin="10,0,0,10" TextWrapping="Wrap" Text="(c) IridiumIon Software, 2016" VerticalAlignment="Bottom" FontFamily="Roboto" />
+        <Button x:Name="btnGenerateSig" Content="Generate Signature" HorizontalAlignment="Left" Margin="30,101,0,0" VerticalAlignment="Top" Width="195" Height="39" FontFamily="Roboto" Command="{Binding GenerateSignatureCommand}" />
     </Grid>
     <Controls:MetroWindow.RightWindowCommands>
         <Controls:WindowCommands>

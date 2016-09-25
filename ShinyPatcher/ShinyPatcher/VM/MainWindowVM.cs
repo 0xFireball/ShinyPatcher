@@ -29,6 +29,7 @@
 
 using NanoMvvm;
 using ShinyPatcher.States;
+using System;
 using System.Windows.Input;
 
 namespace ShinyPatcher.VM
@@ -42,6 +43,13 @@ namespace ShinyPatcher.VM
         private void VisitIridiumIon(object obj)
         {
             _state.VisitIridiumIon();
+        }
+
+        public ICommand GenerateSignatureCommand => new DelegateCommand(GenerateSignature);
+
+        private void GenerateSignature(object obj)
+        {
+            throw new NotImplementedException();
         }
     }
 }
