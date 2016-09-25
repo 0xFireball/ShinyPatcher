@@ -1,8 +1,7 @@
-﻿using System;
+﻿using MahApps.Metro.Controls.Dialogs;
+using Octodiff.CommandLine;
 using System.Threading.Tasks;
 using System.Windows;
-using MahApps.Metro.Controls.Dialogs;
-using Octodiff.CommandLine;
 
 namespace ZetaPatcher
 {
@@ -33,7 +32,7 @@ namespace ZetaPatcher
                 await this.ShowMessageAsync("Error", "Please specify all input files.");
                 return;
             }
-            int exitCode = await Task.Run(()=>RunSignatureCommand());
+            int exitCode = await Task.Run(() => RunSignatureCommand());
             if (exitCode == 0)
                 await this.ShowMessageAsync("Success", "The operation completed successfully.");
             else
@@ -41,7 +40,7 @@ namespace ZetaPatcher
             this.Close();
         }
 
-        int RunSignatureCommand()
+        private int RunSignatureCommand()
         {
             SignatureCommand sigComm = new SignatureCommand();
             return sigComm.Execute(new string[] { _basisFile, _sigFile, "2048", "false" });

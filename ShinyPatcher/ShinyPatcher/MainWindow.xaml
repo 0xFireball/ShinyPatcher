@@ -13,12 +13,12 @@
         <TextBlock x:Name="titleBlock" TextAlignment="Center" Margin="125,46,132.2,0" TextWrapping="Wrap"
                    Text="ZetaPatcher" VerticalAlignment="Top" Height="39" FontSize="24" />
         <Button x:Name="btnGenerateSignature" Content="Generate Signature" Margin="125,109,132.2,0"
-                VerticalAlignment="Top" Height="37" Background="#FFAD3D3D" Click="BtnGenerateSignature_OnClick"/>
+                VerticalAlignment="Top" Height="37" Background="#FFAD3D3D" Click="BtnGenerateSignature_OnClick" />
         <Button x:Name="btnCreatePatch" Content="Create Patch" Margin="125,151,132.2,0"
         	VerticalAlignment="Top" Height="37" Background="#FFAD3D3D" Click="btnCreatePatch_Click" />
         <Button x:Name="btnApplyPatch" Content="Apply Patch" Margin="125,193,132.2,0"
         	VerticalAlignment="Top" Height="37" Background="#FFAD3D3D" Click="btnApplyPatch_Click" />
-        <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Margin="10,240,0,0" TextWrapping="Wrap" Text="(c) ZetaPhase Technologies, 2016" VerticalAlignment="Top" RenderTransformOrigin="1.544,1.757"/>
+        <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Margin="10,240,0,0" TextWrapping="Wrap" Text="(c) ZetaPhase Technologies, 2016" VerticalAlignment="Top" RenderTransformOrigin="1.544,1.757" />
     </Grid>
     <Controls:MetroWindow.RightWindowCommands>
         <Controls:WindowCommands>

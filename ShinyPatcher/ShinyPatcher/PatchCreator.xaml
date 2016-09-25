@@ -11,10 +11,10 @@
                       ResizeMode="CanMinimize"
                       Title="Create Patch" Height="295" Width="437" Icon="icon.ico">
     <Grid>
-        <TextBlock x:Name="txtInst1" HorizontalAlignment="Left" Margin="62,62,0,0" TextWrapping="Wrap" Text="Select Original File" VerticalAlignment="Top" Height="14" Width="358" TextAlignment="Left"/>
-        <Button x:Name="btnSelectOriginalFile" Content="Browse" Margin="62,81,259.4,0" VerticalAlignment="Top" Height="29"/>
-        <TextBlock x:Name="txtInst2" HorizontalAlignment="Left" Margin="62,130,0,0" TextWrapping="Wrap" Text="Select Modified File" VerticalAlignment="Top" Height="14" Width="358" TextAlignment="Left"/>
-        <Button x:Name="btnSelectModdedFile" Content="Browse" Margin="62,149,259.4,0" VerticalAlignment="Top" Height="29"/>
-        <Button x:Name="btnGeneratePatch" Content="Generate Patch" Margin="125,201,115.4,24.6"/>
+        <TextBlock x:Name="txtInst1" HorizontalAlignment="Left" Margin="62,62,0,0" TextWrapping="Wrap" Text="Select Original File" VerticalAlignment="Top" Height="14" Width="358" TextAlignment="Left" />
+        <Button x:Name="btnSelectOriginalFile" Content="Browse" Margin="62,81,259.4,0" VerticalAlignment="Top" Height="29" />
+        <TextBlock x:Name="txtInst2" HorizontalAlignment="Left" Margin="62,130,0,0" TextWrapping="Wrap" Text="Select Modified File" VerticalAlignment="Top" Height="14" Width="358" TextAlignment="Left" />
+        <Button x:Name="btnSelectModdedFile" Content="Browse" Margin="62,149,259.4,0" VerticalAlignment="Top" Height="29" />
+        <Button x:Name="btnGeneratePatch" Content="Generate Patch" Margin="125,201,115.4,24.6" />
     </Grid>
 </controls:MetroWindow>

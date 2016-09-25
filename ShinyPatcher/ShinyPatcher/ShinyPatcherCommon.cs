@@ -4,7 +4,6 @@ namespace ZetaPatcher
 {
     internal class ShinyPatcherCommon
     {
-
         public static string BrowseForSaveFile(string filter, string title)
         {
             SaveFileDialog sfd = new SaveFileDialog
@@ -13,12 +12,13 @@ namespace ZetaPatcher
                 Title = title
             };
             var showDialog = sfd.ShowDialog();
-            if (showDialog != null && (bool) showDialog)
+            if (showDialog != null && (bool)showDialog)
             {
                 return sfd.FileName;
             }
             return null;
         }
+
         public static string BrowseForOpenFile(string filter, string title)
         {
             OpenFileDialog ofd = new OpenFileDialog
@@ -28,7 +28,7 @@ namespace ZetaPatcher
                 Multiselect = false
             };
             var showDialog = ofd.ShowDialog();
-            if (showDialog != null && (bool) showDialog)
+            if (showDialog != null && (bool)showDialog)
             {
                 return ofd.FileName;
             }
