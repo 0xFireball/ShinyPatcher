@@ -1,9 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.IO;
-using Octodiff.CommandLine.Support;
+﻿using Octodiff.CommandLine.Support;
 using Octodiff.Core;
 using Octodiff.Diagnostics;
+using System;
+using System.Collections.Generic;
+using System.IO;
 
 namespace Octodiff.CommandLine
 {

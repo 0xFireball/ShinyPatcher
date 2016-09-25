@@ -9,10 +9,11 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>ShinyPatcher</RootNamespace>
     <AssemblyName>ShinyPatcher</AssemblyName>
-    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <WarningLevel>4</WarningLevel>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -144,8 +145,12 @@
     <Resource Include="icon.ico" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Octodiff\Octodiff.csproj">
-      <Project>{BBA7CDC2-DE25-4131-89F2-506712178FC8}</Project>
+    <ProjectReference Include="..\..\Dependencies\NanoMvvm\NanoMvvm\NanoMvvm.Wpf.csproj">
+      <Project>{cda9ac48-1741-4c5c-8546-3c0c4051c7e6}</Project>
+      <Name>NanoMvvm.Wpf</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Dependencies\Octodiff\Octodiff.csproj">
+      <Project>{bba7cdc2-de25-4131-89f2-506712178fc8}</Project>
       <Name>Octodiff</Name>
     </ProjectReference>
   </ItemGroup>

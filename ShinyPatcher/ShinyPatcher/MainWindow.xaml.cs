@@ -16,12 +16,12 @@ namespace ShinyPatcher
 
         private void ProjectPageClick(object sender, RoutedEventArgs e)
         {
-            Process.Start("https://zetaphase.github.io/ZetaPatcher");
+            Process.Start("https://github.com/0xFireball/ShinyPatcher");
         }
 
-        private void ZetaPhaseClick(object sender, RoutedEventArgs e)
+        private void IridiumIonClick(object sender, RoutedEventArgs e)
         {
-            Process.Start("https://zetaphase.io");
+            Process.Start("https://iridiumion.xyz");
         }
 
         private void BtnGenerateSignature_OnClick(object sender, RoutedEventArgs e)
