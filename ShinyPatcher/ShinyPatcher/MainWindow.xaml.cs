@@ -2,7 +2,7 @@
 using System.Diagnostics;
 using System.Windows;
 
-namespace ZetaPatcher
+namespace ShinyPatcher
 {
     /// <summary>
     ///     Interaction logic for MainWindow.xaml

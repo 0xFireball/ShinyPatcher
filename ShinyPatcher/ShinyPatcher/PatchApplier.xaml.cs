@@ -1,4 +1,4 @@
-﻿namespace ZetaPatcher
+﻿namespace ShinyPatcher
 {
     /// <summary>
     /// Interaction logic for PatchApplier.xaml

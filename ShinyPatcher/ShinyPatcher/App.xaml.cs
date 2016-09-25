@@ -1,6 +1,6 @@
 ﻿using System.Windows;
 
-namespace ZetaPatcher
+namespace ShinyPatcher
 {
     /// <summary>
     ///     Interaction logic for App.xaml

@@ -3,7 +3,7 @@ using Octodiff.CommandLine;
 using System.Threading.Tasks;
 using System.Windows;
 
-namespace ZetaPatcher
+namespace ShinyPatcher
 {
     /// <summary>
     /// Interaction logic for SigMaker.xaml
