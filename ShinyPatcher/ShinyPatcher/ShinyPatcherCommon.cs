@@ -2,7 +2,7 @@
 
 namespace ZetaPatcher
 {
-    internal class ZetaPatcherCommon
+    internal class ShinyPatcherCommon
     {
 
         public static string BrowseForSaveFile(string filter, string title)

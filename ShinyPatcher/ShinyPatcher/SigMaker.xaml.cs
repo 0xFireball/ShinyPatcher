@@ -21,13 +21,13 @@ namespace ZetaPatcher
 
         private void btnSelectBasisFile_Click(object sender, RoutedEventArgs e)
         {
-            _basisFile = ZetaPatcherCommon.BrowseForOpenFile("All Files (*.*)|*.*", "Select Basis File");
+            _basisFile = ShinyPatcherCommon.BrowseForOpenFile("All Files (*.*)|*.*", "Select Basis File");
             txtInst1.Text = _basisFile ?? txtInst1.Text;
         }
 
         private async void btnGenerateSig_Click(object sender, RoutedEventArgs e)
         {
-            _sigFile = ZetaPatcherCommon.BrowseForSaveFile("Signature Files (*.sig)|*.sig|All Files (*.*)|*.*", "Select Output File");
+            _sigFile = ShinyPatcherCommon.BrowseForSaveFile("Signature Files (*.sig)|*.sig|All Files (*.*)|*.*", "Select Output File");
             if (_basisFile == null || _sigFile == null)
             {
                 await this.ShowMessageAsync("Error", "Please specify all input files.");

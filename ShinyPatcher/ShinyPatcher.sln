@@ -1,11 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.25123.0
+VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZetaPatcher", "ZetaPatcher\ZetaPatcher.csproj", "{FB595CD9-56C9-4F76-9C07-37B1CA9FDB44}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Octodiff", "Octodiff\Octodiff.csproj", "{BBA7CDC2-DE25-4131-89F2-506712178FC8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShinyPatcher", "ShinyPatcher\ShinyPatcher.csproj", "{FB595CD9-56C9-4F76-9C07-37B1CA9FDB44}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,14 +13,14 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{FB595CD9-56C9-4F76-9C07-37B1CA9FDB44}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{FB595CD9-56C9-4F76-9C07-37B1CA9FDB44}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{FB595CD9-56C9-4F76-9C07-37B1CA9FDB44}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{FB595CD9-56C9-4F76-9C07-37B1CA9FDB44}.Release|Any CPU.Build.0 = Release|Any CPU
 		{BBA7CDC2-DE25-4131-89F2-506712178FC8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{BBA7CDC2-DE25-4131-89F2-506712178FC8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BBA7CDC2-DE25-4131-89F2-506712178FC8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BBA7CDC2-DE25-4131-89F2-506712178FC8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FB595CD9-56C9-4F76-9C07-37B1CA9FDB44}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB595CD9-56C9-4F76-9C07-37B1CA9FDB44}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB595CD9-56C9-4F76-9C07-37B1CA9FDB44}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB595CD9-56C9-4F76-9C07-37B1CA9FDB44}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

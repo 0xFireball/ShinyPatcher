@@ -6,15 +6,15 @@ using System.Windows;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 
-[assembly: AssemblyTitle("ZetaPatcher")]
+[assembly: AssemblyTitle("ShinyPatcher")]
 [assembly:
     AssemblyDescription(
         "A modern-UI version of OctoPatcher. A sleek and shiny patching tool using efficient diffs from OctoDiff. Awesome."
         )]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("ZetaPhase Technologies")]
-[assembly: AssemblyProduct("ZetaPatcher")]
-[assembly: AssemblyCopyright("Copyright ©  2016 ZetaPhase Technologies")]
+[assembly: AssemblyCompany("IridiumIon Software")]
+[assembly: AssemblyProduct("ShinyPatcher")]
+[assembly: AssemblyCopyright("Copyright ©  2016 IridiumIon Software")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
