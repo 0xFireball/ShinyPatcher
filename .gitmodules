@@ -1,0 +1,6 @@
+[submodule "Dependencies/Octodiff"]
+	path = Dependencies/Octodiff
+	url = https://github.com/OctopusDeploy/Octodiff.git
+[submodule "Dependencies/NanoMvvm"]
+	path = Dependencies/NanoMvvm
+	url = https://github.com/exaphaser/NanoMvvm.git
